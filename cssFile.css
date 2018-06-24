@@ -1,3 +1,36 @@
 body {
-	background-color: rgb();
+	background-color: #ccffff;
+	margin: 0px;
+	font-family: Verdana,serif;
+
+}
+
+#Topbar ul{
+
+	background-color: black;
+	border-radius: 0px;
+	height: 75px;
+	list-style-type: none;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+#Topbar ul li{
+	padding-right: 25px;
+	padding-left:  25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	display:inline;
+	position:relative;
+	top: 30%;
+	-webkit-transform:translate(-30%);
+	-ms-transform:translate(-30%);
+	transform: translate(-30);
+}
+
+#Topbar ul li:hover{
+	background-color: white;
+	color: black;
 }
